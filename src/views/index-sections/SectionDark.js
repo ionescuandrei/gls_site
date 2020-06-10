@@ -12,7 +12,7 @@ function SectionDark() {
         <Container>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title">Fotograf eveniment zona Olteniei </h2>
+              <h2 className="title">Fotograf evenimente zona Olteniei </h2>
               <p className="description">
                 Bine ai venit la Golden Lens Studio. Sunt Ionescu Andrei,
                 fotograf nuntă din Craiova care surprind momente de de bucurie
