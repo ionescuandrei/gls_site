@@ -5,13 +5,14 @@ import { Container, Row, Col } from "reactstrap";
 
 // core components
 
-function SectionExamples() {
+function PortofolioSection() {
   return (
     <>
       <div className="section-dark">
         <Container>
+          <h1 style={{ textAlign: "center", padding: 15 }}>PORTOFOLIU</h1>
           <Row className="example-page">
-            <Col className="text-center" md="6">
+            <Col className="text-center" md="3">
               <a href="examples/landing.html" target="_blank">
                 <img
                   alt="..."
@@ -21,7 +22,7 @@ function SectionExamples() {
                 />
               </a>
             </Col>
-            <Col className="text-center" md="6">
+            <Col className="text-center" md="3">
               <a href="examples/profile.html" target="_blank">
                 <img
                   alt="..."
@@ -33,7 +34,7 @@ function SectionExamples() {
             </Col>
           </Row>
           <Row className="example-page">
-            <Col className="text-center" md="6">
+            <Col className="text-center" md="3">
               <a href="examples/landing.html" target="_blank">
                 <img
                   alt="..."
@@ -43,7 +44,7 @@ function SectionExamples() {
                 />
               </a>
             </Col>
-            <Col className="text-center" md="6">
+            <Col className="text-center" md="3">
               <a href="examples/profile.html" target="_blank">
                 <img
                   alt="..."
@@ -55,7 +56,7 @@ function SectionExamples() {
             </Col>
           </Row>
           <Row className="example-page">
-            <Col className="text-center" md="6">
+            <Col className="text-center" md="3">
               <a href="examples/landing.html" target="_blank">
                 <img
                   alt="..."
@@ -65,7 +66,7 @@ function SectionExamples() {
                 />
               </a>
             </Col>
-            <Col className="text-center" md="6">
+            <Col className="text-center" md="3">
               <a href="examples/profile.html" target="_blank">
                 <img
                   alt="..."
@@ -82,4 +83,4 @@ function SectionExamples() {
   );
 }
 
-export default SectionExamples;
+export default PortofolioSection;
